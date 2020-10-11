@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link id="style1" rel="stylesheet" href="css/index.css">
+</head>
+<body>
+   <div id="container" class="container">
+       <div class="titel">Rekentoets</div>
+       <div class="warning" id="warning">Vul je gegevens in </div>
+       <form id="form">
+            <fieldset>
+                Naam:
+                <input id="name" class="naam"  type="text" required >
+                <br>
+                Klas:
+                <input id="klas" class="klas" type="text"  >
+                Kies  je som:
+                <select name="dropdown" id="operator" required>
+                    <option>Kies</option>
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="X">X</option>
+                    <option value="/">/</option>
+                </select>
+                <button id="start" type="button">Start</button>
+            </fieldset>
+       </form>
+   </div>
+   <!--Dit is de html van de anderen pagina.-->
+   <header id="header">
+       <div>Rekentoets</div>
+   <!--    <div id="time" class="time"></div>-->
+   </header>
+
+    <main id="content" class="content">
+        <div class="bigContainer" >
+            <div class="contentTwee">
+                <div class="number">
+                    <div id="somNummer1" class="somNummer">1</div>
+                    <div id="somNummer2" class="somNummer">2</div>
+                    <div id="somNummer3" class="somNummer">3</div>
+                    <div id="somNummer4" class="somNummer">4</div>
+                    <div id="somNummer5" class="somNummer">5</div>
+                    <div id="somNummer6" class="somNummer">6</div>
+                    <div id="somNummer7" class="somNummer">7</div>
+                    <div id="somNummer8" class="somNummer">8</div>
+                    <div id="somNummer9" class="somNummer">9</div>
+                    <div id="somNummer10" class="somNummer">10</div>
+                </div>
+                <div id="tip" class="tip"></div>
+                <div class="som"><div id="vraag"  ></div>
+                    <input id="answer"   required >
+                </div>
+                <div class="sp">Vul het antwoord in.</div>
+
+
+                <div class="container">
+                    <button id="vorige" class="vorige">Vorige</button>
+                    <button id="volgende" class="volgende">Volgende</button>
+                    <button id="inleveren" class="inleveren">Inleveren</button>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+   <!--Dit is resultaat pagina-->
+   <div id="resultaat" class="resultaat">
+       <div class="info" id="info">
+       </div>
+       <div id="con" class="con"></div>
+   </div>
+    <footer class="footer">ROC MONDRIAAN</footer>
+<script type="module" src="js/start.js"></script>
+
+</body>
+</html>

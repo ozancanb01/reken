@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+html{
+    height: 100%;
+
+}
+body{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+/*
+
+.container{
+    border-radius: 1rem ;
+    background-color: moccasin;
+    padding: 1.5rem;
+    width: 45rem;
+}*/
+.start{
+    color: black;
+    border: none;
+    background-color: moccasin;
+
+
+}
+.titel {
+    font-size: 250%;
+    margin-left: 6rem;
+    padding-bottom:5rem;
+
+}
+.container{
+    width: 45rem;
+
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 10rem;
+
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.container fieldset{
+    border: none;
+}
+.container legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.container label {
+    display: block;
+    margin-bottom: 8px;
+}
+.naam,.klas{
+    margin-bottom: 2rem;
+}
+
+.container input[type="text"],
+.container select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+
+    outline: 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+
+}
+.container input[type="text"]:focus,
+.container select:focus{
+    background: #d2d9dd;
+}
+.container select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+
+
+
+.container button
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin-top: 5rem;
+    background: orange;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid orange;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.container button:hover
+{
+    color: black;
+}
+
+
+
+
+
+
+.content{
+    display: none;
+}
+header{
+    display: none;
+}
+.footer{
+    display: none;
+}
+.spanEen{
+    padding-bottom: 2rem;
+    color: red;
+    padding-left: 19rem;
+    display: none;
+
+}
+.warning{
+    display: none;
+    color: red;
+
+}
+

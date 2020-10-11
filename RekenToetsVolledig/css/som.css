@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+html{
+    height: 100%;
+}
+body{
+    display: grid;
+
+
+    grid-template-rows: 8vh 84vh 8vh;
+
+}
+header{
+    grid-row-start:1 ;
+    grid-row-end: 2;
+
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 200%;
+
+}
+main{
+    grid-row-start:2 ;
+    grid-row-end: 3;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+footer{
+    grid-row-start:3 ;
+    grid-row-end: 4;
+
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentEen{
+    grid-column-start:1 ;
+    grid-column-end: 2;
+
+}
+.tip{
+    margin-left:13rem;
+    margin-bottom: 5rem;
+    font-size: 250%;
+
+}
+.som{
+    margin-top: 2rem;
+    margin-left:27rem;
+    font-size: 200%;
+    display:flex;
+    justify-content:stretch ;
+    align-items: center;
+}
+
+.contentTwee{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+
+}
+.container{
+
+    margin-top: 15rem;
+    display: flex;
+    justify-content: space-evenly ;
+}
+.somNummer{
+    border-radius: 1rem;
+    background: orange;
+    padding: 1.3rem;
+    margin-top: 3rem;
+    width: 4rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: black;
+
+}
+.inleveren{
+    border-radius: 1rem;
+    background: orange;
+    padding: 1.5rem;
+    width: 8rem;
+    color: white;
+
+    border: none;
+    text-align: center;
+}
+.volgende{
+    border-radius: 1rem;
+    background: orange;
+    padding: 1.5rem;
+    width: 8rem;
+    color: white;
+    margin-left: 1rem;
+    border: none;
+    text-align: center;
+}
+.volgende:hover{
+    border-radius: 1rem;
+    background: orange;
+    color: black;
+    padding: 1.5rem;
+    width: 8rem;
+    margin-left: 1rem;
+    text-align: center;
+    border: none;
+}
+.vorige{
+    border-radius: 1rem;
+    background: orange;
+    padding: 1.5rem;
+    width: 8rem;
+    color: white;
+    text-align: center;
+    border: none;
+}
+.vorige:hover{
+    border-radius: 1rem;
+    background: orange;
+    padding: 1.5rem;
+    width: 8rem;
+    color: black;
+    border: none;
+
+    text-align: center;
+}
+
+.number{
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    width: 40%;
+    margin-bottom: 8rem;
+    margin-left: 19rem;
+
+
+}
+.sp{
+    display: none;
+    color: red;
+    margin-top: 3rem;
+    margin-left: 30rem;
+}
+.con{
+    display: none;
+    margin-left:33rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.info{
+    display: none;
+    margin: 2rem auto auto auto;
+
+    font-size: 1rem;
+    width: 20rem;
+    border: #8a97a0;
+    background-color: cornflowerblue;
+}
+.resultaat{
+    display: none;
+}
